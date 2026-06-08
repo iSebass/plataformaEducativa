@@ -651,7 +651,7 @@ export default function Phase4Workspace({ onBack }) {
             <span>Fase 4: Logaritmo para Ecuaciones Exponenciales</span>
           </div>
           <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight text-slate-800 dark:text-slate-100 font-display">
-            Fase 4: Exponenciales y Desigualdades
+            Fase 4: Ecuaciones Exponenciales
           </h1>
           <p className="text-slate-600 dark:text-slate-400 max-w-3xl text-sm md:text-base leading-relaxed font-light">
             Aprende a usar el logaritmo como la herramienta clave para resolver ecuaciones exponenciales del tipo
