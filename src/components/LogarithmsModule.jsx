@@ -283,10 +283,10 @@ export default function LogarithmsModule() {
 
                       <div className="space-y-1">
                         <h3 className="font-extrabold text-slate-450 dark:text-slate-550 text-lg">
-                          Desigualdades e Inecuaciones
+                          Función Inversa Logarítmica
                         </h3>
                         <p className="text-xs text-slate-400 dark:text-slate-500 leading-relaxed font-light">
-                          Aprende a resolver desigualdades exponenciales y logarítmicas, dominando los cambios de signo y dominios de las funciones.
+                          Descubre la relación entre la función exponencial y la logarítmica, comprende sus gráficas y cómo encontrar la función inversa paso a paso.
                         </p>
                       </div>
                     </div>
