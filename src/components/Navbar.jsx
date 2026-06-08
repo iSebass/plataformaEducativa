@@ -17,7 +17,7 @@ export default function Navbar({ theme, toggleTheme }) {
             <Link to="/" className="flex items-center gap-2 text-violet-600 dark:text-violet-400 font-bold text-xl hover:text-violet-500 dark:hover:text-violet-300 transition-colors">
               <GraduationCap className="w-8 h-8 text-violet-600 dark:text-violet-500" />
               <span className="bg-gradient-to-r from-violet-600 via-fuchsia-500 to-cyan-600 dark:from-violet-400 dark:via-fuchsia-400 dark:to-cyan-400 bg-clip-text text-transparent">
-                PortalEdu
+                iSebas Portal EDU
               </span>
             </Link>
           </div>

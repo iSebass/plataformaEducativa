@@ -573,7 +573,7 @@ export default function LogarithmsModule() {
                     <div className="relative aspect-video rounded-xl overflow-hidden border border-slate-250 dark:border-slate-800 shadow-lg">
                       <iframe
                         src="https://www.youtube.com/embed/PBbqvd_QB3M"
-                        title="PortalEdu - Definición de Logaritmo"
+                        title="iSebas Portal EDU - Definición de Logaritmo"
                         className="absolute inset-0 w-full h-full"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen

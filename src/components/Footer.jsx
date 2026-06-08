@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex justify-center items-center gap-2 text-violet-600 dark:text-violet-400 font-bold text-lg">
           <GraduationCap className="w-6 h-6 text-violet-600 dark:text-violet-500" />
           <span className="bg-gradient-to-r from-violet-600 to-cyan-600 dark:from-violet-400 dark:to-cyan-400 bg-clip-text text-transparent">
-            PortalEdu
+            iSebas Portal EDU
           </span>
         </div>
         <p className="text-slate-600 dark:text-slate-500 text-sm">

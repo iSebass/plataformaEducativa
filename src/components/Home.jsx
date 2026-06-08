@@ -42,7 +42,7 @@ export default function Home() {
             className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-violet-500/10 border border-violet-500/30 text-violet-600 dark:text-violet-400 text-sm font-semibold mb-2"
           >
             <Sparkles className="w-4 h-4" />
-            <span>Plataforma Educativa Universidad del Valle</span>
+            <span>iSebas Portal EDU — Donde las matemáticas hacen clic ✨</span>
           </motion.div>
 
           <motion.h1 
@@ -60,7 +60,7 @@ export default function Home() {
             variants={itemVariants}
             className="text-slate-600 dark:text-slate-400 text-lg sm:text-xl leading-relaxed font-light"
           >
-            PortalEdu transforma el aprendizaje matemático. Visualiza conceptos complejos en tiempo real, resuelve paso a paso y pon a prueba tus conocimientos.
+            iSebas Portal EDU transforma el aprendizaje matemático. Visualiza conceptos complejos en tiempo real, resuelve paso a paso y pon a prueba tus conocimientos de forma divertida e interactiva.
           </motion.p>
 
           <motion.div 
