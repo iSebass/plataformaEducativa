@@ -142,7 +142,7 @@ export default function Phase2Workspace({ onBack }) {
         "\\log_{5}\\left(\\frac{x^2 z^3}{\\sqrt{y}}\\right)",
         "\\log_{5}\\left(\\frac{x^2 \\sqrt{y}}{z^3}\\right)",
         "\\log_{5}\\left(\\frac{2x z^3}{\\frac{1}{2}y}\\right)",
-        "\\log_{5}\\left(x^2 - \\sqrt{y} + z^3\right)"
+        "\\log_{5}\\left(x^2 - \\sqrt{y} + z^3\\right)"
       ],
       correctIndex: 0,
       explanation: "Subimos los coeficientes como exponentes por la propiedad de la potencia: $\\log_5(x^2)$, $\\log_5(y^{1/2}) = \\log_5(\\sqrt{y})$, y $\\log_5(z^3)$. \nLos logaritmos que se suman multiplican sus argumentos, y los que se restan pasan a dividir: $\\log_5(x^2 \\cdot z^3) - \\log_5(\\sqrt{y}) = \\log_5\\left(\\frac{x^2 z^3}{\\sqrt{y}}\\right)$."
@@ -913,7 +913,9 @@ export default function Phase2Workspace({ onBack }) {
                   {/* Question and Formula */}
                   <div className="space-y-4 pt-2">
                     <p className="text-slate-800 dark:text-slate-200 font-bold md:text-lg leading-relaxed">
-                      {quizQuestions[currentQuestion].question}
+                      {quizQuestions[currentQuestion].question.split('$').map((part, i) => (
+                        i % 2 === 0 ? part : <MathFormula key={i} formula={part} className="text-violet-600 dark:text-violet-400 font-bold mx-1" />
+                      ))}
                     </p>
                     <div className="py-4 bg-slate-50 dark:bg-slate-950/40 rounded-xl flex justify-center border border-slate-200 dark:border-slate-900/60 shadow-inner">
                       <MathFormula formula={quizQuestions[currentQuestion].latex} displayMode={true} className="text-xl font-bold" />

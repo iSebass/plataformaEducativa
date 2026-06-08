@@ -23,7 +23,7 @@ export default function MathFormula({ formula, displayMode = false, className = 
   return (
     <span
       ref={containerRef}
-      className={`inline-block overflow-x-auto max-w-full align-middle ${
+      className={`inline-block overflow-x-auto max-w-full align-middle whitespace-nowrap ${
         displayMode ? 'w-full py-2 text-center' : ''
       } ${className}`}
     />
