@@ -241,10 +241,10 @@ export default function LogarithmsModule() {
 
                       <div className="space-y-1">
                         <h3 className="font-extrabold text-slate-450 dark:text-slate-550 text-lg">
-                          Desigualdades y Funciones
+                          Exponenciales y Desigualdades
                         </h3>
                         <p className="text-xs text-slate-400 dark:text-slate-500 leading-relaxed font-light">
-                          Analiza el dominio, rango y las asíntotas de las gráficas logarítmicas y resuelve inecuaciones con rigor y claridad.
+                          Usa el logaritmo como herramienta para resolver ecuaciones exponenciales de todo tipo. Luego, aborda las desigualdades logarítmicas y exponenciales con rigor y claridad.
                         </p>
                       </div>
                     </div>
